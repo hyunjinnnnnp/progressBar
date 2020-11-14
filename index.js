@@ -17,7 +17,7 @@ function drawCircle(scrollPer) {
   canvas.style.transform = "rotate(-90deg)";
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.beginPath();
-  ctx.arc(centerX, centerY, 60, startAngle, endAngle);
+  ctx.arc(centerX, centerY, 30, startAngle, endAngle);
   ctx.lineCap = "round";
   ctx.lineWidth = "10";
   ctx.strokeStyle = "rgb(151, 28, 28)";
